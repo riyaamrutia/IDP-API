@@ -120,7 +120,7 @@ axios.post("https://dmsak.asite.com/apilogin/", postData, {
                                                 msgId: formMsgId,
                                                 jsonData: deliverableItemString
                                             };
-                                            //console.log(postReqData);
+                                            console.log(postReqData);
                                             //4
                                             const cookies = response.headers['set-cookie'];
                                             console.log("Cookie: ", cookies);

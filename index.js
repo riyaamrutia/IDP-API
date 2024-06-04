@@ -10,7 +10,7 @@ let deliverableItemjson = {
     "location": "00",
     "fileType": "AN",
     "role": "A",
-    "fileNumber": "43",
+    "fileNumber": "121211",
     "deliverableReference": "A0100",
     "stage": "EA0",
     "lOD": "LOD0",
@@ -97,7 +97,7 @@ axios.post("https://dmsak.asite.com/apilogin/", postData, {
                                                 msgId: formMsgId,
                                                 jsonData: JSON.stringify(deliverableItemjson)
                                             };
-                                            //console.log(postReqData);
+                                            console.log("post request data is : ", postReqData);
                                             //4
                                             const cookies = response.headers['set-cookie'];
                                             console.log("Cookie: ", cookies);
